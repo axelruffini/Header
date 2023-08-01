@@ -1,0 +1,27 @@
+
+@import "mixin";
+
+body {
+    background-color: #011936;
+}
+
+header {
+    background-color: #1F305E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5% 0% 3%;
+    height: 151px;
+}
+
+h1{
+    @include textos (70px, center)
+
+}
+
+a{
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    @include textos (30px, center)
+}

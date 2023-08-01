@@ -1,0 +1,28 @@
+
+@media(max-width: 1000px){
+
+    header {
+        border-radius: 30px;
+        background-color: #1F305E;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5%;
+        padding: 0% 5% 0% 6%;
+        height: 100px;
+    }
+
+
+    h1{
+        @include textos (30px, center)
+    
+    }
+    
+    a{
+        margin: 0px 10px 0px 10px;
+        text-decoration: none;
+        @include textos (20px, center)
+    }
+}
+

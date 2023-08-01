@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$ColorAzul: #e9edc9;
+$ColorBlanco: #000000;
+$ColorGris: #00000008;
+$ColorSeleccion: black;
+/*--------------------- PAGINA "INICIO" ---------------------*/
+
+@import "inicio";
+
+
+/*--------------------- Responsive ---------------------*/
+
+@import "responsive";
