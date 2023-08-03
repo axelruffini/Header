@@ -2,14 +2,12 @@
 @media(max-width: 1000px){
 
     header {
-        border-radius: 30px;
         background-color: #1F305E;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin: 5%;
-        padding: 0% 5% 0% 6%;
+        padding: 0% 5% 0% 5%;
         height: 100px;
     }
 
@@ -25,4 +23,5 @@
         @include textos (20px, center)
     }
 }
+
 

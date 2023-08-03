@@ -16,12 +16,45 @@ header {
 }
 
 h1{
-    @include textos (70px, center)
+    @include textos (70px, center);
 
+}
+
+h4{
+    font-weight: lighter;
+    @include textos (20px, center);
 }
 
 a{
     margin: 0px 10px 0px 10px;
     text-decoration: none;
     @include textos (30px, center)
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.menu{
+    position: relative;
+    right: 1%;
+    background-color: #1F305E;
+    border-radius: 20px;
+    height: 30%;
+    width: 15%;
+
+}
+
+.desplegable .menu{  //Va a estar todo oculto el menu asociado a .desplegable
+    display: none;
+    overflow: hidden;
+    position: absolute;
+}
+
+.desplegable:hover .menu { //Al hacer hover en .desplegable aparece .menu
+    display: block;
 }
