@@ -2,17 +2,18 @@
 @import "mixin";
 
 body {
-    background-color: #011936;
+    background-color: rgb(184, 184, 184);
 }
 
-header {
-    background-color: #1F305E;
+header{
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0% 5% 0% 3%;
     height: 151px;
+
 }
 
 h1{
@@ -21,7 +22,7 @@ h1{
 }
 
 h4{
-    font-weight: lighter;
+    font-weight:bold;
     @include textos (20px, center);
 }
 
@@ -42,7 +43,7 @@ nav{
 .menu{
     position: relative;
     right: 1%;
-    background-color: #1F305E;
+    background-color: white;
     border-radius: 20px;
     height: 30%;
     width: 15%;
