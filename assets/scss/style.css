@@ -68,6 +68,39 @@ nav {
   display: block;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(223, 223, 223);
+  height: 80vh;
+}
+
+.boton {
+  display: flex;
+  justify-content: start;
+  width: 250px;
+  background-color: white;
+  padding: 1% 2% 1% 2%;
+  border-color: black;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.boton .desc {
+  display: none;
+}
+
+.boton:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.boton:hover .desc {
+  display: flex;
+}
+
 /*--------------------- Responsive ---------------------*/
 @media (max-width: 1000px) {
   header {
