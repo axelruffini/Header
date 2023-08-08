@@ -83,7 +83,6 @@ main {
   background-color: white;
   padding: 1% 2% 1% 2%;
   border-color: black;
-  border-radius: 10px;
   border-style: solid;
 }
 
@@ -92,7 +91,7 @@ main {
 }
 
 .boton:hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(0, 0, 0, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -20px 20px, rgba(0, 0, 0, 0.05) -25px 25px;
   height: -moz-fit-content;
   height: fit-content;
 }
